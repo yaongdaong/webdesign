@@ -64,7 +64,7 @@ header {
     position: absolute;
     display: none;
     z-index: 1;
-    background: #ffffff;
+    background-color: #ffffff;
 }
 .submenu > li > a {
     width: 180px;
@@ -73,7 +73,7 @@ header {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    background: #ffffff;
+    background-color: #ffffff;
     color: #333333;
 }
 .submenu > li > a:hover {
@@ -135,7 +135,7 @@ header {
     border-bottom: none;
 }
 .tabmenu > li > a:hover {
-    background: #eeeeee;
+    background-color: #eeeeee;
 }
 .tabmenu > li:first-child a {
     border-right: none;

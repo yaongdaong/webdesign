@@ -1,6 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
-
 * {
     margin: 0 auto;
     padding: 0;
@@ -11,7 +9,7 @@
 html,
 body {
     min-width: 1200px;
-    background-color: #fff;
+    background-color: #ffffff;
     font-size: 20px;
 }
 a {
@@ -21,7 +19,7 @@ a {
 header {
     width: 100%;
     height: 100px;
-    background-color: #dddddd;
+    background: #dddddd;
 }
 .wrap {
     width: 1200px;
@@ -64,7 +62,7 @@ header {
     position: absolute;
     display: none;
     z-index: 1;
-    background: #ffffff;
+    background-color: #ffffff;
 }
 .submenu > li > a {
     width: 180px;
@@ -73,7 +71,7 @@ header {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    background: #ffffff;
+    background-color: #ffffff;
     color: #333333;
 }
 .submenu > li > a:hover {
@@ -135,13 +133,13 @@ header {
     border-bottom: none;
 }
 .tabmenu > li > a:hover {
-    background: #eeeeee;
+    background-color: #eeeeee;
 }
 .tabmenu > li:first-child a {
     border-right: none;
 }
 .tabmenu > li.active > a {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 .tabmenu > li div {
     position: absolute;
@@ -265,7 +263,7 @@ header {
     position: fixed;
     left: 30%;
     top: 20%;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 .uptitle {
     margin-top: 30px;
@@ -283,6 +281,7 @@ header {
 .btn {
     width: 80px;
     height: 20px;
+    display: block;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
